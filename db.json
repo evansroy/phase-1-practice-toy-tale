@@ -4,25 +4,25 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 6
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 11
     },
     {
       "id": 3,
       "name": "Mr. Potato Head",
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "likes": 7
     },
     {
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "likes": 6
     },
     {
       "id": 5,
@@ -34,19 +34,37 @@
       "id": 6,
       "name": "Bo Peep",
       "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "likes": 3
     },
     {
       "id": 7,
       "name": "Hamm",
       "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "likes": 4
     },
     {
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": 1
+      "likes": 4
+    },
+    {
+      "name": "Smart toy",
+      "image": "https://imgs.search.brave.com/GjX9I08t4g69N3-rhGgLJsnkqm0FwZqcxVT9Z0vDOZc/rs:fit:832:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/cUJfcVZzNjJZS25o/ZkdWOGR6QTBRSGFF/TyZwaWQ9QXBp",
+      "likes": 4,
+      "id": 9
+    },
+    {
+      "name": "Dan Pixer",
+      "image": "https://imgs.search.brave.com/qbTmfGnkyiZz4ZFeRtMXJtnciAtMD_A91N8dtH9umqw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly8yLmJw/LmJsb2dzcG90LmNv/bS8tcmdzN1JPajNa/Ym8vVjQtLUhFMnZ1/UEkvQUFBQUFBQUFV/c2cvbzhXblozYW82/dTAtSWE5WHNnZVBR/SS1SNEtZUndHRnFB/Q0V3L3MxNjAwL3Rv/eS1zdG9yeS1taW5p/LWxvdHNvLmpwZw",
+      "likes": 2,
+      "id": 10
+    },
+    {
+      "name": "Fisher",
+      "image": "https://imgs.search.brave.com/zAK3KVa8PJNe0qJ5QkyoY27uknkwUa4rCkslci5wty8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/cGY5OHl5SnltWVhF/Q1VlRUI3dFVnSGFI/YSZwaWQ9QXBp",
+      "likes": 2,
+      "id": 11
     }
   ]
 }

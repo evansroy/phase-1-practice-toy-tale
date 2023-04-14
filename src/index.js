@@ -45,3 +45,64 @@ const init = () => {
 };
 
 init();
+
+
+const toyForm = document.querySelector('.add-toy-form');
+
+toyForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const nameInput = toyForm.querySelector('input[name="name"]');
+  const imageInput = toyForm.querySelector('input[name="image"]');
+  const name = nameInput.value;
+  const image = imageInput.value;
+
+  fetch(apiUrl, {
+    method: 'POST',
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json"
+    },
+    body: JSON.stringify({
+      name,
+      image,
+      likes: 0
+    })
+  })
+    .then(response => response.json())
+    .then(toy => {
+      const card = createToyCard(toy);
+      toyCollection.appendChild(card);
+      toyForm.reset();
+    })
+    .catch(error => console.error(error));
+});
+
+
+toyCollection.addEventListener('click', (event) => {
+  if (event.target.classList.contains('like-btn')) {
+    event.preventDefault(); // prevent page from reloading
+    const likeButton = event.target;
+    const card = likeButton.closest('.card');
+    const id = likeButton.id;
+    const likes = card.querySelector('p').textContent.split(' ')[0];
+    const newLikes = parseInt(likes) + 1;
+
+    fetch(`${apiUrl}/${id}`, {
+      method: 'PATCH',
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: JSON.stringify({
+        likes: newLikes
+      })
+    })
+      .then(response => response.json())
+      .then(toy => {
+        card.querySelector('p').textContent = `${newLikes} likes`;
+      })
+      .catch(error => console.error(error));
+  }
+});
+
