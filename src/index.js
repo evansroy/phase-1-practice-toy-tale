@@ -81,7 +81,7 @@ toyForm.addEventListener('submit', (event) => {
 
 toyCollection.addEventListener('click', (event) => {
   if (event.target.classList.contains('like-btn')) {
-    event.preventDefault(); // prevent page from reloading
+     event.preventDefault(); // prevent page from reloading
     const likeButton = event.target;
     const card = likeButton.closest('.card');
     const id = likeButton.id;

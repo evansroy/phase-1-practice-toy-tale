@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 11
+      "likes": 12
     },
     {
       "id": 3,
@@ -28,13 +28,13 @@
       "id": 5,
       "name": "Rex",
       "image": "https://static.wikia.nocookie.net/disney/images/5/56/Profile_-_Rex.jpeg/revision/latest?cb=20190313050619",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 6,
       "name": "Bo Peep",
       "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 7,
@@ -57,13 +57,13 @@
     {
       "name": "Dan Pixer",
       "image": "https://imgs.search.brave.com/qbTmfGnkyiZz4ZFeRtMXJtnciAtMD_A91N8dtH9umqw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly8yLmJw/LmJsb2dzcG90LmNv/bS8tcmdzN1JPajNa/Ym8vVjQtLUhFMnZ1/UEkvQUFBQUFBQUFV/c2cvbzhXblozYW82/dTAtSWE5WHNnZVBR/SS1SNEtZUndHRnFB/Q0V3L3MxNjAwL3Rv/eS1zdG9yeS1taW5p/LWxvdHNvLmpwZw",
-      "likes": 2,
+      "likes": 3,
       "id": 10
     },
     {
       "name": "Fisher",
       "image": "https://imgs.search.brave.com/zAK3KVa8PJNe0qJ5QkyoY27uknkwUa4rCkslci5wty8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/cGY5OHl5SnltWVhF/Q1VlRUI3dFVnSGFI/YSZwaWQ9QXBp",
-      "likes": 2,
+      "likes": 4,
       "id": 11
     }
   ]
